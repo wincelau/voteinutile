@@ -1,0 +1,723 @@
+/**
+ * Reset
+ ******************************************/
+*
+{
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+/* HTML5 Boilerplate  */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html, button, input, select, textarea { font-family: 'Asap', sans-serif; color: #222; }
+body { margin: 0; font-size: 1em; line-height: 1.2; }
+
+::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+
+a { color: inherit; }
+a:visited { color: inherit; }
+a:hover { color: inherit; }
+a:focus { color: inherit; outline: 0; }
+a:hover, a:active { outline: 0; }
+abbr[title] { border-bottom: 1px dotted; }
+b, strong { font-weight: bold; }
+dfn { font-style: italic; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+ins { background: #ff9; color: #000; text-decoration: none; }
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+pre, code, kbd, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; }
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+small { font-size: 85%; }
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+svg:not(:root) { overflow: hidden; }
+figure { margin: 0; }
+
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+
+label { cursor: pointer; }
+legend { border: 0; *margin-left: -7px; padding: 0; white-space: normal; }
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+button, input { line-height: normal; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; *overflow: visible; }
+button[disabled], input[disabled] { cursor: default; }
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; *width: 13px; *height: 13px; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid { background-color: #f0dddd; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+#plainte {
+  background: #EFEFEF; 
+  padding: 5px 0; 
+  position: fixed; 
+  z-index: 2000; 
+  width: 100%;
+}
+
+#plainte p {
+  text-align: center;
+}
+
+#main.avec_beandeau {
+  padding-top: 48px;
+}
+
+header, footer, section.diapo {
+  text-align: center;
+}
+
+footer nav {
+  padding: 8px 0;
+}
+
+footer nav a {
+  font-size: 14px;
+  color: #707070;
+}
+
+footer p.mention {
+  font-size: 14px;
+  padding: 10px 0 0 0;
+}
+
+section.diapo {
+  padding: 45px 0 0 0;
+  left: 0;
+  right: 0;
+  position: relative;
+}
+
+header h1 {
+  color: #002b4b;
+  font-size: 92px;
+}
+
+section.diapo.blanc {
+  background-color:  #fff;
+  color: #000;
+}
+
+.lt-ie9 section.diapo.blanc a, .lt-ie9 section.diapo.blanc a:visited, .lt-ie9 section.diapo.blanc a:hover, .lt-ie9 section.diapo.blanc a:focus {
+  color: #000;
+}
+
+section.diapo.rouge {
+  background-color:  #7c1f19;
+  color: #fff;
+}
+
+.lt-ie9 section.diapo.rouge a, .lt-ie9 section.diapo.rouge a:visited, .lt-ie9 section.diapo.rouge a:hover, .lt-ie9 section.diapo.rouge a:focus {
+  color: #fff;
+}
+
+section.diapo.vert {
+  background-color:  #9cc15a;
+  color: #355d0a;
+}
+
+.lt-ie9 section.diapo.vert a, .lt-ie9 section.diapo.vert a:visited, .lt-ie9 section.diapo.vert a:hover, .lt-ie9 section.diapo.vert a:focus {
+  color: #355d0a;
+}
+
+section.diapo.grisfonce {
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+.lt-ie9 section.diapo.grisfonce a, .lt-ie9 section.diapo.grisfonce a:visited, .lt-ie9 section.diapo.grisfonce a:hover, .lt-ie9 section.diapo.grisfonce a:focus {
+  color: #fff;
+}
+
+section.diapo.bleu {
+  background-color: #305383;
+  color: #fff;
+}
+
+section.diapo div.diapo_inner {
+  width: 940px;
+  padding: 0 30px;
+  display: inline-block;
+}
+
+section.diapo h1 {
+  font-size: 55px;
+  font-weight: normal;
+  padding: 0 0 70px 0;
+}
+
+section.diapo p {
+  font-size: 30px;
+}
+
+section.diapo p span.smaller {
+  font-size: 18px;
+  text-align: left;
+}
+
+section.diapo span.bloc {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 28px;
+  margin-top: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.lt-ie8 section.diapo span.bloc {
+  display: inline; 
+  zoom: 1;
+}
+
+section.diapo span.bloc.smaller {
+  font-size: 25px;
+  padding: 6px 12px;
+}
+
+section.diapo span.bloc.blanc {
+  background: #fff;
+  color: #000;
+}
+
+section.diapo span.bloc.gris {
+  background: #363636;
+  color: #949494;
+}
+
+section.diapo blockquote, section.diapo p.big {
+  font-size: 33px;
+  text-align: justify;
+}
+
+section.diapo figure.citation figcaption {
+  font-size: 20px;
+  font-style: italic;
+  text-align: left;
+  padding: 34px 0 0 0;
+}
+
+section.diapo figure.citation figcaption a {
+  /*font-size: 16px;*/
+}
+
+section.diapo figure.graph {
+  text-align: center;
+  padding-bottom: 18px;
+}
+
+section.diapo#activite figure.graph iframe {
+  width: 920px;
+  height: 187px;
+}
+
+section.diapo figure.graph figcaption {
+  font-size: 27px;
+  text-align: center;
+  /*padding: 0 26px 0 137px;*/
+}
+
+section.diapo figure.graph figcaption span.smaller {
+  font-size: 18px;
+  font-style: italic;
+  /*float: right;
+  padding-top: 10px;*/
+  padding-left: 10px;
+}
+
+section.diapo h1 span.smaller {
+  font-size: 47px;
+}
+
+section.diapo footer {
+  padding: 92px 0 15px 0;
+}
+
+section.diapo .diapo_inner footer p.source {
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 15px !important;
+}
+
+section.diapo#diapo_intro {
+  background: #fff url('../images/balkany.jpg') no-repeat bottom center;
+  padding: 0;
+  position: relative;
+}
+
+
+section.diapo#diapo_intro .diapo_inner {
+  height: 616px;
+  padding: 0;
+  position: relative;
+}
+
+section.diapo#diapo_intro h1 {
+  background: #06406c;
+  color: #fff;
+  border: 1px solid #fff;
+  border-left: none;
+  border-right: none;
+  padding: 4px 0 14px 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 415px;
+}
+
+section.diapo#diapo_intro figure {
+  color: #949494;
+  width: 350px;
+  position: absolute;
+  right: 25px;
+  top: 45px;
+}
+
+.lt-ie9 section.diapo#diapo_intro figure a, .lt-ie9 section.diapo#diapo_intro figure a:visited, .lt-ie9 section.diapo#diapo_intro figure a:hover, .lt-ie9 section.diapo#diapo_intro figure a:focus {
+  color: #949494;
+}
+
+section.diapo#diapo_intro blockquote {
+  font-size: 22px;
+}
+
+section.diapo#diapo_intro figcaption {
+  font-size: 16px;
+  font-style: italic;
+  text-align: left;
+  padding: 20px 0 0 0;
+}
+
+section.diapo#diapo_intro figcaption a {
+  /*font-size: 14px;*/
+}
+
+section.diapo#activite h1 {
+  padding-bottom: 45px;
+}
+
+section.diapo#activite footer {
+  padding-top: 20px;
+}
+
+section.diapo#despetitssous h1 {
+  padding-bottom: 17px;
+}
+
+section.diapo#despetitssous p {
+  padding: 0 0 42px 0;
+}
+
+section.diapo#despetitssous p.titre {
+  padding-bottom: 55px;
+}
+
+section.diapo#despetitssous footer {
+  padding-top: 20px;
+}
+
+section.diapo#jevote .diapo_inner {
+  position: relative;
+}
+
+section.diapo#jevote h1 {
+  text-align: left;
+  font-size: 45px;
+  padding-bottom: 80px;
+}
+
+section.diapo#jevote a.bouton {
+  background: #0e2658;
+  border: none;
+  color: #fff;
+  font-size: 58px;
+  text-transform: uppercase;
+  padding: 14px 18px 8px 18px;
+  margin-right: 58px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  display: inline-block;
+  line-height: 42px;
+  vertical-align: top;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.lt-ie9 section.diapo#jevote a.bouton {
+  height: 112px;
+}
+
+section.diapo#jevote #tampon {
+  position: absolute;
+  top: 0;
+  left: 80px;
+  display: none;
+}
+
+section.diapo#jevote #tampon p {
+  position: absolute;
+  top: 327px;
+  right: 0;
+  font-size: 15px;
+}
+
+section.diapo#jevote #tampon a {
+
+}
+
+section.diapo#jevote a.bouton.last {
+  margin-right: 0;
+}
+
+section.diapo#jevote a.bouton:hover {
+  background: #637393;
+}
+
+section.diapo#jevote a.bouton span.smaller {
+  font-size: 36px;
+  zoom: 1;
+  text-transform: none;
+}
+
+section.diapo#jevote footer {
+  padding-top: 130px;
+  padding-bottom: 30px;
+}
+
+section.diapo#jevote footer p {
+  color: #0e2658;
+  font-size: 21px;
+}
+
+.lt-ie9 section.diapo#jevote footer p a, .lt-ie9 section.diapo#jevote footer p a:visited, .lt-ie9 section.diapo#jevote footer p a:hover, .lt-ie9 section.diapo#jevote footer p a:focus {
+  color: #0e2658;
+}
+
+section.diapo#partage {
+  color: #707070;
+}
+
+section.diapo#partage {
+  padding-top: 20px;
+}
+
+section.diapo#partage h1 {
+  line-height: 50px;
+}
+
+section.diapo#partage h1 span.smaller {
+  font-size: 27px; 
+}
+
+section.diapo#partage nav {
+  width: 480px;
+  margin: 0 auto;
+}
+
+section.diapo#partage a.icon_partage {
+  display: block;
+  float: left;
+  width: 100px;
+  height: 100px;
+  text-indent: -8000px;
+}
+
+section.diapo#partage a.icon_partage.qrcode {
+  background: transparent url(../images/qrcode.png) no-repeat 0 0;
+  padding: 0 100px 0 0;
+}
+
+section.diapo#partage a.icon_partage.facebook {
+  background: transparent url(../images/facebook.png) no-repeat 0 20px;
+  padding: 0 80px 0 0;
+}
+
+section.diapo#partage a.icon_partage.twitter {
+  background: transparent url(../images/twitter.png) no-repeat 0 20px;
+}
+
+section.diapo#partage p.hashtag {
+  color: #969696;
+  font-size: 24px;
+  padding-top: 30px;
+}
+
+section.diapo#partage footer{
+  padding-top: 30px;
+}
+
+
+section.diapo#mentions_legales h1 {
+  font-size: 24px;
+  padding-bottom: 40px;
+  padding-top: 0;
+}
+
+section.diapo#mentions_legales p {
+  font-size: 16px;
+  text-align: left;
+  padding: 0 0 16px 0;
+}
+
+section.diapo#mentions_legales p.retour  {
+  padding-top: 50px;
+}
+
+section.diapo .fb-like {
+  position: absolute; 
+  right: 12px; 
+  bottom: 12px;
+}
+
+nav.nav {
+  text-align: center;
+  font-size: 14px;
+  padding: 4px 0;
+  background: #f2f2f2;
+}
+
+nav.nav a {
+  font-size: 14px;
+  padding: 0 4px;
+  color: #444;
+}
+
+nav.nav a.actif {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media screen and (min-height: 500px) and (max-height: 700px) {
+  
+  section.diapo#diapo_intro {
+    height: 520px;
+    background: #fff url('../images/balkany-768.jpg') no-repeat bottom center;
+  }
+
+  section.diapo#diapo_intro h1 {
+    top: 335px;
+  }
+
+  header h1 {
+    font-size: 90px;
+  }
+
+  section.diapo blockquote, section.diapo p.big {
+    font-size: 32px;
+  }
+
+  section.diapo p {
+    font-size: 27px;
+  }
+
+  section.diapo span.bloc {
+    font-size: 25px;
+  }
+
+  section.diapo span.bloc.smaller {
+    font-size: 22px;
+  }
+
+  section.diapo h1 { 
+    font-size: 52px;
+  }
+
+  section.diapo#diapo_intro figure {
+    top: 25px;
+  }
+}
+
+/* =================================================================================== */
+/* SMARTPHONE & TABLETTE */
+/* =================================================================================== */
+@media only screen and (max-device-width: 1024px)
+{
+
+  #plainte {
+    display: none;
+  }
+
+  #main {
+    width: auto !important;
+    padding-top: 0;
+  }
+
+  section.diapo {
+    width: auto !important;
+  }
+
+  section.diapo div.diapo_inner {
+    width: auto !important;
+    padding: 0 10px !important;
+    display: block !important;
+  }
+
+  section.diapo#diapo_intro figure { 
+    right: 10px;
+  }
+
+  section.diapo#activite figure.graph iframe {
+    width: auto !important;
+  }
+
+  section.diapo#partage nav {
+    width: auto !important;
+  }
+
+  /*section.diapo#diapo_intro figure {
+    position: relative !important;
+    width: auto !important;
+    padding: 0 10px;
+    left: 0;
+    right: 0;
+  }*/
+
+  header h1 {
+    font-size: 82px;
+  }
+
+  section.diapo .diapo_inner footer p.source {
+    font-size: 12px !important;
+  }
+
+  section.diapo blockquote, section.diapo p.big {
+    font-size: 24px !important;
+  }
+
+  section.diapo figure.citation figcaption {
+    font-size: 17px !important;
+  }
+
+  section.diapo#diapo_intro figcaption {
+    font-size: 14px !important;
+  }
+
+  section#diapo_intro.diapo blockquote {
+    font-size: 18px !important;
+  }
+
+  section.diapo p {
+    font-size: 20px !important;
+  }
+
+  section.diapo span.bloc {
+    font-size: 18px !important;
+  }
+
+  section.diapo span.bloc.smaller {
+    font-size: 16px !important;
+  }
+
+  section.diapo h1 { 
+    font-size: 36px !important;
+  }
+
+  section.diapo h1 span.smaller {
+    font-size: 28px;
+  }
+
+  footer nav a {
+    font-size: 12px !important;
+  }
+}
+
+/* =================================================================================== */
+/* SMARTPHONE */
+/* =================================================================================== */
+@media only screen and (max-device-width: 767px)
+{
+  section.diapo#diapo_intro figure {
+    position: relative !important;
+    width: auto !important;
+    padding: 20px 10px 0 10px;
+    left: 0 !important;
+    right: 0 !important;
+    top: 0 !important;
+    font-size: 64px !important;
+  }
+
+  header h1 {
+    font-size: 64px !important;
+  }
+
+  section.diapo#diapo_intro {
+    height: 700px !important;
+  }
+
+  section.diapo#diapo_intro h1 {
+    top: 490px !important;
+    width: 300px;
+  }
+
+  section.diapo#jevote {
+    display: none !important;
+  }
+}
+
+/* =================================================================================== */
+/* SMARTPHONE PAYSAGE */
+/* =================================================================================== */
+@media only screen and (min-device-width : 321px) and (max-device-width: 767px)
+{
+
+}
+
+/* =================================================================================== */
+/* SMARTPHONE PORTRAIT */
+/* =================================================================================== */
+@media only screen and (max-device-width : 320px)
+{
+
+}
+
+
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
+.ir br { display: none; }
+.hidden { display: none !important; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+@media print {
+  * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } 
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; } 
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } 
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
