@@ -1,6 +1,6 @@
 # VoteInutile.fr
 
-Source du site voteinutile.fr mettant en avant, juste avant les législatives de 2012, le travail du député Patrick Balkany durant sont mandat de 2007 à 2012.
+Source du site voteinutile.fr mettant en avant, juste avant les législatives de 2012, le "travail" du député Patrick Balkany durant son mandat de 2007 à 2012.
 
 Le site est toujours accessible : http://voteinutile.winy.fr
 
